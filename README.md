@@ -23,11 +23,18 @@ Install all dependencies as indicated in the [Requirements Section](#requirement
 
 The trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture are available in the `deeplab_trained_models` folder.
 
-Run the following command to perform network inference with images from folder:
+Run the following command to perform network inference with images from folder. Some sample images are available in the `test_images` folder.
+If you want to test your images, change the folder path accordingly in the code.
 ```
 python inference_images_from_folder.py
 ```
-Some sample images are available in the `test_images` folder.
+
+Run the following command to perform network inference using the reading stream from a webcam or a video file
+Please, change the video path and cam ID (default is 0) if necessary.
+```
+python inference_webcam_or_video.py
+```
+
 
 ## Dataset
 
