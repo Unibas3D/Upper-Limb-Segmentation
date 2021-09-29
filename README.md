@@ -21,7 +21,7 @@ We tested our code on Windows 10 defining a [Miniconda](https://docs.conda.io/en
 ## Test models
 Install all dependencies as indicated in the [Requirements Section](#requirements).
 
-The trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture are available in the `deeplab_trained_models` folder.
+The trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture can be found [here](http://193.204.19.174:8080/share.cgi?ssid=0o0miPs).
 
 Run the following command to perform network inference with images from folder. Some sample images are available in the `test_images` folder.
 If you want to test your images, change the folder path accordingly in the code.
