@@ -57,10 +57,11 @@ The default color mask is red. Please, edit the [line 11](https://github.com/Uni
 
 ## Inference on videos or webcam input
 Run the following command to perform network inference using the reading stream from a webcam or a video file
-Please, change the video path and cam ID (default is 0) if necessary.
 ```
 python inference_webcam_or_video.py
 ```
+The default inference is performed using the webcam stream. Please, change the cam ID (default is 0) if necessary.
+If you want to test videos, please uncomment lines 93-94 and comment line 97. Change video path at line 93.
 
 ## Dataset
 We will release our dataset for encouraging future research on human segmentation. 
