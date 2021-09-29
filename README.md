@@ -16,7 +16,18 @@ This repo contains the official test code for the project _Upper Limb Segmentati
 - CUDA 10.0 
 - cuDNN for CUDA 10.0 (such as v7.6.4)
 
-We tested our code on Windows 10 defining a miniconda3 environment.
+We tested our code on Windows 10 defining a [Miniconda](https://docs.conda.io/en/latest/miniconda.html) environment.
+
+## Test models
+Install all dependencies as indicated in the [Requirements Section](#requirements).
+
+The trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture are available in the `deeplab_trained_models` folder.
+
+Run the following command to perform network inference with images from folder:
+```
+python inference_images_from_folder.py
+```
+Some sample images are available in the `test_images` folder.
 
 ## Dataset
 
@@ -30,3 +41,16 @@ Before requesting our data, please verify that you understand and agree to compl
 - Any publications utilizing this dataset have to reference our paper.
 - These restrictions include not just the images in their current form but any images created from these images (i.e. “derivative” images).
 - Models trained using our data may only be distributed (posted on the internet or given to others) under the condition that the model can only be used for non-commercial uses.
+
+## Citation
+If you use the code or the data for your research, please cite the paper:
+
+```
+@inproceedings{deeplabv3plus2018,
+  title={Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation},
+  author={Liang-Chieh Chen and Yukun Zhu and George Papandreou and Florian Schroff and Hartwig Adam},
+  booktitle={ECCV},
+  year={2018}
+}
+```
+
