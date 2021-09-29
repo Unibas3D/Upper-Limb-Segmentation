@@ -28,13 +28,14 @@ If you want to test your images, change the folder path accordingly in the code.
 ```
 python inference_images_from_folder.py
 ```
+Predictions are saved in the `results` folder, which is automatically created if it does not exist.
+The default color mask is red. Please, edit the [line 11](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/966be7448555870b9a9466d9db06da6601a61a88/dataset_colormap.py#L11) of the `colormap_dataset.py` file to set another color. 
 
 Run the following command to perform network inference using the reading stream from a webcam or a video file
 Please, change the video path and cam ID (default is 0) if necessary.
 ```
 python inference_webcam_or_video.py
 ```
-
 
 ## Dataset
 
