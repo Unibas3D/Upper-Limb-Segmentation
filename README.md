@@ -56,7 +56,7 @@ Predictions are saved in the `results` folder, which is automatically created if
 The default color mask is red. Please, edit the [line 11](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/966be7448555870b9a9466d9db06da6601a61a88/dataset_colormap.py#L11) of the `colormap_dataset.py` file to set another color. 
 
 ## Inference on videos or webcam input
-Run the following command to perform network inference using the input stream from a webcam or a video file
+Run the following command to perform network inference using the input stream from a webcam or a video file.
 ```
 python inference_webcam_or_video.py
 ```
