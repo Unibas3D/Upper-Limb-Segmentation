@@ -63,9 +63,8 @@ python inference_webcam_or_video.py
 ```
 
 ## Dataset
-
 We will release our dataset for encouraging future research on human segmentation. 
-Please send an email to monica.gruosso@unibas.it if you need it for academic research and non-commercial purposes.
+Please send an email to monica.gruosso@unibas.it or nicola.capece@unibas.it if you need it for academic research and non-commercial purposes.
 
 Before requesting our data, please verify that you understand and agree to comply with the following:
 - This data may ONLY be used for non-commercial uses (This also means that it cannot be used to train models for commercial use).
