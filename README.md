@@ -18,11 +18,35 @@ This repo contains the official test code for the project _Upper Limb Segmentati
 
 We tested our code on Windows 10 defining a [Miniconda](https://docs.conda.io/en/latest/miniconda.html) environment.
 
-## Test models
-Install all dependencies as indicated in the [Requirements Section](#requirements).
+## Getting Started
+Clone repository:
+```
+git clone https://github.com/Unibas3D/Upper-Limb-Segmentation.git
+```
+Install all dependencies indicated in the [Requirements Section](#requirements).
 
-The trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture can be found [here](http://193.204.19.174:8080/share.cgi?ssid=0o0miPs).
+Ensure that TensorFlow 1.15 with CUDA enabled is correctly installed:
+```
+import tensorflow as tf
+print("TensorFlow version: ", tf.__version__)
+print("TensorFlow is built with cuda: ", tf.test.is_built_with_cuda())
+if tf.test.is_gpu_available():
+    print("GPU device: ", tf.test.gpu_device_name())
+else:
+    print("No available GPU!")
+```
 
+Download the trained models based on the [DeepLabv3+](https://arxiv.org/pdf/1802.02611.pdf) architecture. They can be found [here](http://193.204.19.174:8080/share.cgi?ssid=0o0miPs). Create a folder named `deeplab_trained_models` in the root and put all models in. Your root folder structure should look like this:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ C
+/Upper-Limb-Segmentation/
+    deeplab_trained_models/
+        model_07_05_21/
+        model_08_05_21/
+        model_10_05_21/
+        model_13_05_21/
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## Inference on images from folder
 Run the following command to perform network inference with images from folder. Some sample images are available in the `test_images` folder.
 If you want to test your images, change the folder path accordingly in the code.
 ```
@@ -31,6 +55,7 @@ python inference_images_from_folder.py
 Predictions are saved in the `results` folder, which is automatically created if it does not exist.
 The default color mask is red. Please, edit the [line 11](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/966be7448555870b9a9466d9db06da6601a61a88/dataset_colormap.py#L11) of the `colormap_dataset.py` file to set another color. 
 
+## Inference on videos or webcam input
 Run the following command to perform network inference using the reading stream from a webcam or a video file
 Please, change the video path and cam ID (default is 0) if necessary.
 ```
