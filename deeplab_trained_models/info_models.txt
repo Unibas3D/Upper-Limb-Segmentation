@@ -1,4 +1,0 @@
-model_07_05_21: backbone xception-41 (pretrained on imagenet)
-model_08_05_21: backbone xception-65 (pretrained on imagenet+coco) --> the best
-model_10_05_21: backbone resnet-50-beta (pretrained on imagenet)
-model_13_05_21: backbone resnet-50-beta (pretrained on imagenet)
