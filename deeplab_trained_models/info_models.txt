@@ -1,6 +1,0 @@
-Upper Limb Segmentation Networks based on the DeepLabv3+ architecture
-
-model_07_05_21: xception-41 backbone (pretrained on imagenet)
-model_08_05_21: xception-65 backbone (pretrained on imagenet+coco) --> the best
-model_10_05_21: resnet-50-beta backbone (pretrained on imagenet)
-model_13_05_21: resnet-50-beta backbone (pretrained on imagenet)
