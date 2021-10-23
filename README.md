@@ -76,7 +76,26 @@ Before requesting our data, please verify that you understand and agree to compl
 - Models trained using our data may only be distributed (posted on the internet or given to others) under the condition that the model can only be used for non-commercial uses.
 
 ## Citation
-If you use the code or the data for your research, please cite the paper:
+If you use the code or the data for your research, please cite the following papers:
+
+```
+@inproceedings{gruosso2021solid,
+  title={Solid and Effective Upper Limb Segmentation in Egocentric Vision},
+  author={Gruosso, Monica and Nicola, Capece and Erra, Ugo},
+  booktitle={The 26th International Conference on 3D Web Technology},
+  year={2021}
+}
+```
+
+```
+@article{gruosso2021exploring,
+  title={Exploring Upper Limb Segmentation with Deep Learning for Augmented Virtuality},
+  author={Gruosso, Monica and Nicola, Capece and Ugo, Erra},
+  booktitle={STAG},
+  year={2021},
+  publisher={Eurographics Association}
+}
+```
 
 ```
 @inproceedings{deeplabv3plus2018,
@@ -87,3 +106,22 @@ If you use the code or the data for your research, please cite the paper:
 }
 ```
 
+```
+@inproceedings{lee2019hands,
+  title={Hands Holding Clues for Object Recognition in Teachable Machines},
+  author={Lee, Kyungjun and Kacorri, Hernisa},
+  booktitle={Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems},
+  year={2019},
+  organization={ACM}
+}
+```
+
+```
+@inproceedings{li2013pixel,
+  title={Pixel-level hand detection in ego-centric videos},
+  author={Li, Cheng and Kitani, Kris M},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={3570--3577},
+  year={2013}
+}
+```
