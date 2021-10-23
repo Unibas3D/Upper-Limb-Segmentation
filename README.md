@@ -88,16 +88,6 @@ If you use the code or the data for your research, please cite the following pap
 }
 ```
 
-```
-@article{gruosso2021exploring,
-  title={Exploring Upper Limb Segmentation with Deep Learning for Augmented Virtuality},
-  author={Gruosso, Monica and Nicola, Capece and Ugo, Erra},
-  booktitle={STAG},
-  year={2021},
-  publisher={Eurographics Association}
-}
-```
-
 - DeepLabv3+
 ```
 @inproceedings{deeplabv3plus2018,
