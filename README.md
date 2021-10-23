@@ -78,6 +78,7 @@ Before requesting our data, please verify that you understand and agree to compl
 ## Citation
 If you use the code or the data for your research, please cite the following papers:
 
+- Ours
 ```
 @inproceedings{gruosso2021solid,
   title={Solid and Effective Upper Limb Segmentation in Egocentric Vision},
@@ -97,6 +98,7 @@ If you use the code or the data for your research, please cite the following pap
 }
 ```
 
+- DeepLabv3+
 ```
 @inproceedings{deeplabv3plus2018,
   title={Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation},
@@ -106,6 +108,7 @@ If you use the code or the data for your research, please cite the following pap
 }
 ```
 
+- TEgO dataset
 ```
 @inproceedings{lee2019hands,
   title={Hands Holding Clues for Object Recognition in Teachable Machines},
@@ -116,6 +119,7 @@ If you use the code or the data for your research, please cite the following pap
 }
 ```
 
+- EDSH dataset
 ```
 @inproceedings{li2013pixel,
   title={Pixel-level hand detection in ego-centric videos},
