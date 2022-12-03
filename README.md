@@ -80,6 +80,17 @@ If you use the code or the data for your research, please cite the following pap
 
 - Ours
 ```
+@article{gruosso202egocentric,
+  title={Egocentric Upper Limb Segmentation in Unconstrained Real-Life Scenarios},
+  author={Gruosso, Monica and Nicola, Capece and Erra, Ugo},
+  journal={Virtual Reality},
+  year={2022}
+  publisher={Springer},
+  doi={https://doi.org/10.1007/s10055-022-00725-4}
+}
+```
+
+```
 @inproceedings{gruosso2021solid,
   title={Solid and Effective Upper Limb Segmentation in Egocentric Vision},
   author={Gruosso, Monica and Nicola, Capece and Erra, Ugo},
