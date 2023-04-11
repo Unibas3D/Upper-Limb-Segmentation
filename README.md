@@ -64,7 +64,7 @@ The default inference is performed using the webcam stream. Please, change the c
 If you want to test videos, please uncomment [lines 93-94](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/49acd157d3d02d763e494dae5db508831998391b/inference_webcam_or_video.py#L93-L94) and comment [line 97](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/49acd157d3d02d763e494dae5db508831998391b/inference_webcam_or_video.py#L97). Change video path at [line 93](https://github.com/Unibas3D/Upper-Limb-Segmentation/blob/49acd157d3d02d763e494dae5db508831998391b/inference_webcam_or_video.py#L93).
 
 ## Dataset
-We will release our dataset for encouraging future research on human segmentation. 
+We will release our dataset for encouraging future research on upper limb segmentation. 
 Please send an email to monica.gruosso@unibas.it or nicola.capece@unibas.it if you need it for academic research and non-commercial purposes.
 
 Before requesting our data, please verify that you understand and agree to comply with the following:
